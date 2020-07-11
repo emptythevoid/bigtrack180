@@ -8,3 +8,8 @@ The configuration also includes scrollwheel emulation when the right-mouse butto
 
 This config is written for the older serial-only model, using a serial-to-usb adapter and inputattach --mouseman. This will cause the Identifier to be "Logitech M+ Mouse".  Change this if you are connecting a newer model using USB or a PS/2 adapter.
 
+To use:
+On Ubuntu with X11, place this file in:
+/etc/X11/xorg.conf.d
+
+and reboot.
